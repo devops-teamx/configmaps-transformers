@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: transformers/optimus-prime
+  repository: quay.io/transformers/optimus-prime
   tag: latest
   pullPolicy: IfNotPresent
 
