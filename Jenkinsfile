@@ -3,7 +3,7 @@
 // load pipeline functions
 // Requires pipeline-github-lib plugin to load library from github
 
-@Library('github.com/devops-teamx/pipeline@dev')
+@Library('github.com/devops-teamx/pipeline@helm-umbrella')
 
 def pipeline = new io.ab.Pipeline()
 
