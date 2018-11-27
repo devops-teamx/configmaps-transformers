@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "optimus-prime",
+    "replicas": "2",
+    "cpu": "10m",
+    "memory": "128Mi",
+    "test": true,
+    "hostname": "optimus-prime.akilimawazo.info"
+  },
+  "container_repo": {
+    "host": "quay.io",
+    "master_acct": "shkbha.666",
+    "alt_acct": "shkbha.666",
+    "jenkins_creds_id": "quay_creds",
+    "repo": "optimus-prime",
+    "dockeremail": ".",
+    "dockerfile": "./",
+    "image_scanning": false
+  },
+  "pipeline": {
+      "enabled": true,
+      "debug": false,
+      "library": {
+        "branch": "dev"
+      }
+  }
+}
